@@ -1,0 +1,10 @@
+{
+  "$schema": "https://raw.githubusercontent.com/amazingalek/owml/master/schemas/manifest_schema.json",
+  "filename": "FarsiTranslation.dll",
+  "author": "Otonashiku Otonashi",
+  "name": "Farsi Translation",
+  "uniqueName": "OtonashikuOtonashi.FarsiTranslation",
+  "version": "0.1.0",
+  "owmlVersion": "2.5.2",
+  "dependencies": ["xen.LocalizationUtility"]
+}
