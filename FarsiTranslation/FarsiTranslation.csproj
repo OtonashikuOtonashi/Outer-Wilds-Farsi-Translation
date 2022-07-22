@@ -29,4 +29,12 @@
 	<ItemGroup>
 		<Content Include="FarsiTranslation.csproj.user" />
 	</ItemGroup>
+	<ItemGroup>
+	  <None Update="assets\b_mitra_0">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	  <None Update="assets\Translations.xml">
+	    <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	  </None>
+	</ItemGroup>
 </Project>
