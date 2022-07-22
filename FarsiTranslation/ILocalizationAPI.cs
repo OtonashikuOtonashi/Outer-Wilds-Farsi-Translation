@@ -5,8 +5,8 @@ namespace FarsiTranslation
 {
     public interface ILocalizationAPI
     {
-        void RegisterLanguage(ModBehaviour mod, string name, string translationPath, string assetBundlePath, string fontPath, Func<string, string> fixer);
-        void RegisterLanguage(ModBehaviour mod, string name, string translationPath, string assetBundlePath, string fontPath);
         void RegisterLanguage(ModBehaviour mod, string name, string translationPath);
+        void AddLanguageFont(ModBehaviour mod, string name, string assetBundlePath, string fontPath);
+        void AddLanguageFixer(string name, Func<string, string> fixer);
     }
 }
