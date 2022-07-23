@@ -51,7 +51,6 @@ namespace FarsiTranslation
                     replaced = replaced.Replace(keyValuePair.Key, keyValuePair.Value);
                 }
 
-                ModHelper.Console.WriteLine($"{tag}, {replaced}");
                 s = s.Replace(tag, replaced);
             }
 
